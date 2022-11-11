@@ -5,7 +5,7 @@ export default function FooterSecondary() {
         ©2019 THREAD AFFAIR. All Rights Reserved.
       </p>
 
-      <p className="mb-2">
+      <p>
         Designed by
         <img src="/images/pixellab_logo.jpg" alt="Logo" />
       </p>

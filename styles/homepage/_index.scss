@@ -1,12 +1,55 @@
 .content-main {
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 50px;
+
+  .home-social {
+    h1 {
+      color: $brand-primary;
+      font-weight: 300;
+      text-transform: unset;
+      margin-bottom: 30px;
+
+      span {
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+
+      @include media-breakpoint-up(lg) {
+        font-size: 35px;
+      }
+    }
+
+    ul {
+      width: auto;
+
+      a {
+        padding: 12px;
+        border: 2px solid $gray-primary;
+        border-radius: 50%;
+
+        i {
+          width: 18px;
+          font-size: 18px;
+        }
+
+        @include media-breakpoint-up(lg) {
+          padding: 18px;
+          margin-left: 20px;
+
+          i {
+            width: 20px;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
 
   & > section {
-    & > header {
-      text-align: center;
+    text-align: center;
 
+    & > header {
       h1 {
         text-transform: uppercase;
         line-height: 29px;
@@ -24,6 +67,17 @@
             font-weight: 300;
           }
         }
+      }
+    }
+
+    & > ul {
+      text-align: center;
+      width: 320px;
+      margin: 0 auto;
+
+      li {
+        display: inline-block;
+        margin: 0 4px;
       }
     }
   }

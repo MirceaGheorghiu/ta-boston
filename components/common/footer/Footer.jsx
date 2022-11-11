@@ -8,7 +8,7 @@ export default function Footer() {
         <FooterPrimary></FooterPrimary>
       </section>
 
-      <section className="footer-secondary text-center mt-3">
+      <section className="footer-secondary text-center my-3">
         <FooterSecondary></FooterSecondary>
       </section>
     </>

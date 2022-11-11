@@ -1,6 +1,7 @@
 import Footer from "../components/common/footer/footer";
 import Header from "../components/common/header/Header";
 import HomePayment from "../components/homepage/HomePayment";
+import HomeSocial from "../components/homepage/HomeSocial";
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
 
       <main className="content">
 
-        <div className="content-main container">
+        <div className="content-main">
+          <HomeSocial></HomeSocial>
           <HomePayment></HomePayment>
         </div>
       </main>
