@@ -1,4 +1,4 @@
-import Footer from "../components/common/footer/footer";
+import Footer from "../components/common/footer/Footer";
 import Header from "../components/common/header/Header";
 import HomePayment from "../components/homepage/HomePayment";
 import HomeSocial from "../components/homepage/HomeSocial";

@@ -12,7 +12,7 @@ export default function HomeSocial() {
             target="_blank"
             rel="noopener noreferrer"
             title="Follow Thread Affair on Facebook"
-          ><i class="fa-brands fa-facebook-f"></i></a>
+          ><i className="fa-brands fa-facebook-f"></i></a>
         </li>
 
         <li>
@@ -21,7 +21,7 @@ export default function HomeSocial() {
             target="_blank"
             rel="noopener noreferrer"
             title="Follow Thread Affair on Instagram"
-          ><i class="fa-brands fa-instagram"></i></a>
+          ><i className="fa-brands fa-instagram"></i></a>
         </li>
 
         <li>
@@ -30,7 +30,7 @@ export default function HomeSocial() {
             target="_blank"
             rel="noopener noreferrer"
             title="Follow Thread Affair on Linkedin"
-          ><i class="fa-brands fa-linkedin-in"></i></a>
+          ><i className="fa-brands fa-linkedin-in"></i></a>
         </li>
 
         <li>
@@ -39,7 +39,7 @@ export default function HomeSocial() {
             target="_blank"
             rel="noopener noreferrer"
             title="Follow Thread Affair on Pinterest"
-          ><i class="fa-brands fa-pinterest-p"></i></a>
+          ><i className="fa-brands fa-pinterest-p"></i></a>
         </li>
 
         <li>
@@ -48,7 +48,7 @@ export default function HomeSocial() {
             target="_blank"
             rel="noopener noreferrer"
             title="Follow Thread Affair on Twitter"
-          ><i class="fa-brands fa-twitter"></i></a>
+          ><i className="fa-brands fa-twitter"></i></a>
         </li>
       </ul>
     </section>

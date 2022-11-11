@@ -199,7 +199,7 @@ export default function FooterPrimary() {
               href="tel:1-877-666-1840"
               title="Support"
             >
-              <i class="fa-solid fa-phone"></i>
+              <i className="fa-solid fa-phone"></i>
               <span>Support</span>
             </a>
           </li>
@@ -209,7 +209,7 @@ export default function FooterPrimary() {
               href="/"
               title="Chat"
             >
-              <i class="fa-solid fa-comment"></i>
+              <i className="fa-solid fa-comment"></i>
               <span>Chat</span>
             </a>
           </li>
@@ -219,7 +219,7 @@ export default function FooterPrimary() {
               href="mailto:office@thread-affair.com"
               title="Email"
             >
-              <i class="fa-solid fa-at"></i>
+              <i className="fa-solid fa-at"></i>
               <span>Email</span>
             </a>
           </li>
