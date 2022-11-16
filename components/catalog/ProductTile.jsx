@@ -10,14 +10,18 @@ export default function ProductTile() {
           <span className="badge">%</span>
         </div>
 
-        <h1 className="product-tile-title">Thread Affair Traveller Suit</h1>
-        <h2 className="product-tile-subtitle">London fit semi slim</h2>
+        <h1 className="product-tile-title">
+          <span>Thread Affair</span> Traveller <span>Suit</span>
+        </h1>
+        <h2 className="product-tile-subtitle">London fit-Semi-slim</h2>
       </header>
 
       <section className="product-tile-pricing">
         <span className="product-price-regular">399.00</span>
 
-        <span className="product-price">USD 270.00</span>
+        <span className="product-price">
+          USD <span>270.00</span>
+        </span>
       </section>
 
       <footer className="product-tile-footer">

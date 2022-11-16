@@ -2,7 +2,7 @@ export default function HomeSocial() {
   return (
     <section className="home-social container">
       <header>
-        <h1 className="mb-5">
+        <h1>
           <span>We are</span> <span>social</span>!
         </h1>
       </header>
