@@ -39,7 +39,7 @@
         display: block;
 
         & > li {
-          width: 27.386542%; // 350 / 1278
+          width: 27.386541%; // 350 / 1278
           float: left;
           margin-left: 8.8419405%; // 113 / 1278
 
@@ -47,6 +47,32 @@
             margin-left: 0;
           }
         }
+      }
+    }
+  }
+
+  // v2 of layout - flex
+  &:nth-child(2) {
+    .product-tiles {
+      @include media-breakpoint-up(lg) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        & > li {
+          width: 27.386541%;
+        }
+      }
+    }
+  }
+
+  // v3 of layout - grid
+  &:nth-child(3) {
+    .product-tiles {
+      @include media-breakpoint-up(lg) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8.8419405%;
       }
     }
   }
