@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Footer from '../components/common/footer/Footer';
 import Header from '../components/common/header/Header';
 import BSCatalogPreview from '../components/homepage/BsCatalogPreview';
+import { HomeCarousel } from '../components/homepage/HomeCarousel';
 import HomeCatalogPreview from '../components/homepage/HomeCatalogPreview';
 import HomeNewsletter from '../components/homepage/HomeNewsletter';
 import HomePayment from '../components/homepage/HomePayment';
@@ -16,7 +17,7 @@ export default function Home() {
 
       <main className="content">
         <header className="banner-main">
-          <div className="banner-main-inner container">
+          {/* <div className="banner-main-inner container">
             <div>
               <h1>Office Suits</h1>
               <h2>Get back to work in style</h2>
@@ -40,7 +41,9 @@ export default function Home() {
                 if you want to change the details with our online configurator.
               </p>
             </footer>
-          </div>
+          </div> */}
+
+          <HomeCarousel></HomeCarousel>
         </header>
 
         <div className="content-main">
