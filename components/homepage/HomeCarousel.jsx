@@ -18,25 +18,24 @@ export const HomeCarousel = () => {
       <div className="glide" ref={carousel}>
         <div className="glide__track" data-glide-el="track">
           <ul className="glide__slides">
-            <li className="glide__slide">
-              <picture>
-                <img src="/images/banners/banner-01.jpg" alt=""></img>
-              </picture>
-            </li>
-            <li className="glide__slide">
-              <picture>
-                <img src="/images/banners/banner-02.jpg" alt=""></img>
-              </picture>
-            </li>
-            <li className="glide__slide">
-              <picture>
-                <img src="/images/banners/banner-03.jpg" alt=""></img>
-              </picture>
-            </li>
+            {Array(3)
+              .fill('')
+              .map((_, index) => {
+                return (
+                  <li className="glide__slide" key={index}>
+                    <picture>
+                      <img
+                        src={`/images/banners/banner-0${index + 1}.jpg`}
+                        alt=""
+                      ></img>
+                    </picture>
+                  </li>
+                );
+              })}
           </ul>
         </div>
 
-        <div class="glide__arrows" data-glide-el="controls">
+        <div className="glide__arrows" data-glide-el="controls">
           <button
             className="button glide__arrow glide__arrow--left"
             data-glide-dir="<"
